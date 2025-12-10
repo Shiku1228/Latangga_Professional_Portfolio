@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Renz Latangga - Full Stack Developer</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="container">
+            <div class="logo">RL</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Hi, I'm <span class="highlight">Renz Latangga</span></h1>
+                <h2>Full Stack Developer</h2>
+                <p>I build responsive, user-friendly websites and applications with clean, efficient code.</p>
+                <div class="cta-buttons">
+                    <a href="#contact" class="btn btn-primary">Hire Me</a>
+                    <a href="#" class="btn btn-secondary" id="downloadCvBtn">
+                        <span class="btn-text">Download CV</span>
+                    </a>
+                    
+                    <!-- Full Screen Wave Loader -->
+                    <div id="waveLoaderOverlay" class="wave-loader-overlay">
+                        <div class="wave-container">
+                            <div class="ocean">
+                                <div class="wave wave1"></div>
+                                <div class="wave wave2"></div>
+                                <div class="wave wave3"></div>
+                                <div class="wave wave4"></div>
+                            </div>
+                            <div class="loading-content">
+                                <div class="loading-text">Preparing your CV...</div>
+                                <div class="loading-progress">
+                                    <div class="progress-bar"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="images/Latangga, Renz S..png" alt="Renz Latangga" class="profile-pic">
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">About <span class="highlight">Me</span></h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Hey there! I'm Renz, a passionate IT student currently pursuing my Bachelor's degree in Information Technology at Ramon Magsaysay Memorial Colleges. I'm on an exciting journey to turn my love for technology into a meaningful career in web development.</p>
+                    <p>When I'm not buried in textbooks or coding projects, you can find me exploring new web technologies, contributing to open-source projects, or helping my classmates with their programming assignments. I believe in learning by doing, which is why I'm always working on personal projects to improve my skills.</p>
+                    <div class="fun-facts">
+                        <h3>Get to Know Me:</h3>
+                        <ul>
+                            <li>Currently a 2nd year IT student at RMMC</li>
+                            <li>Self-taught coder who loves turning ideas into reality</li>
+                            <li>Currently learning: Web Development & UI/UX Design</li>
+                            <li>A part-time gamer - love exploring game design in my free time</li>
+                            <li>Can't start my day without a good cup of hot drink!</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="about-skills">
+                    <h3>Technologies I Work With:</h3>
+                    <div class="skills-tags">
+                        <span>HTML5</span>
+                        <span>CSS3</span>
+                        <span>JavaScript</span>
+                        <span>React</span>
+                        <span>Node.js</span>
+                        <span>Python</span>
+                        <span>Git</span>
+                        <span>MySQL</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section bg-light">
+        <div class="container">
+            <h2 class="section-title">My <span class="highlight">Skills</span></h2>
+            <div class="skills-container">
+                <div class="skill-category">
+                    <h3><i class="fas fa-code"></i> Frontend</h3>
+                    <div class="skill">
+                        <div class="skill-info">
+                            <span>HTML5</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-level" style="width: 90%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-info">
+                            <span>CSS3</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-level" style="width: 85%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-info">
+                            <span>JavaScript</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-level" style="width: 80%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-info">
+                            <span>React</span>
+                            <span>75%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-level" style="width: 75%;"></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skill-category">
+                    <h3><i class="fas fa-server"></i> Backend</h3>
+                    <div class="skill">
+                        <div class="skill-info">
+                            <span>Node.js</span>
+                            <span>75%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-level" style="width: 75%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-info">
+                            <span>Python</span>
+                            <span>70%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-level" style="width: 70%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-info">
+                            <span>SQL</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-level" style="width: 80%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-info">
+                            <span>RESTful APIs</span>
+                            <span>75%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-level" style="width: 75%;"></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skill-category">
+                    <h3><i class="fas fa-tools"></i> Tools & Platforms</h3>
+                    <div class="skill">
+                        <div class="skill-info">
+                            <span>Git & GitHub</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-level" style="width: 85%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-info">
+                            <span>VS Code</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-level" style="width: 90%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-info">
+                            <span>Figma</span>
+                            <span>70%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-level" style="width: 70%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-info">
+                            <span>Linux</span>
+                            <span>75%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-level" style="width: 75%;"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="container">
+            <h2 class="section-title">My <span class="highlight">Projects</span></h2>
+            <div class="projects-grid" style="text-align: center; padding: 60px 20px;">
+                <div class="coming-soon">
+                    <i class="fas fa-code-branch" style="font-size: 3rem; color: #3b82f6; margin-bottom: 20px;"></i>
+                    <h3 style="color: #1e40af; margin-bottom: 15px;">Projects Coming Soon!</h3>
+                    <p style="color: #4b5563; max-width: 600px; margin: 0 auto 20px; line-height: 1.6;">
+                        I'm currently working on some exciting projects that I can't wait to share with you. 
+                        This section will be updated soon with my latest work. In the meantime, feel free to 
+                        check out my <a href="#skills" style="color: #3b82f6; text-decoration: none; font-weight: 500;">skills</a> 
+                        or <a href="#contact" style="color: #3b82f6; text-decoration: none; font-weight: 500;">get in touch</a> 
+                        with me to discuss potential collaborations.
+                    </p>
+                    <div style="margin-top: 30px;">
+                        <a href="#contact" class="btn btn-primary">Let's Work Together</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience & Education Section -->
+    <section id="experience" class="section bg-light">
+        <div class="container">
+            <h2 class="section-title">Experience <span class="highlight">&</span> Education</h2>
+            
+            <div class="timeline">
+                <!-- Experience -->
+                <div class="timeline-section">
+                    <h3><i class="fas fa-briefcase"></i> Work Experience</h3>
+                    <div class="timeline-item">
+                        <div class="timeline-content">
+                            <p>Currently seeking internship opportunities to apply my skills and gain professional experience in web development.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Education -->
+                <div class="timeline-section">
+                    <h3><i class="fas fa-graduation-cap"></i> Education</h3>
+                    
+                    <div class="timeline-item">
+                        <div class="timeline-date">2024 - Present</div>
+                        <div class="timeline-content">
+                            <h4>Bachelor of Science in Information Technology</h4>
+                            <h5>Ramon Magsaysay Memorial Colleges</h5>
+                            <p>Currently pursuing degree in Information Technology</p>
+                            <p>Relevant Coursework:</p>
+                            <ul>
+                                <li>Advanced Web Development</li>
+                                <li>Database Systems</li>
+                                <li>Software Engineering</li>
+                                <li>Network Administration</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="timeline-item">
+                        <div class="timeline-date">2023 - 2024</div>
+                        <div class="timeline-content">
+                            <h4>Bachelor of Science in Information Technology</h4>
+                            <h5>Cavite State University - Trece Martires City, Cavite</h5>
+                            <p>Completed first year of studies</p>
+                            <p>Key Subjects:</p>
+                            <ul>
+                                <li>Introduction to Programming</li>
+                                <li>Computer Fundamentals</li>
+                                <li>Discrete Mathematics</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="timeline-item">
+                        <div class="timeline-date">2021 - 2023</div>
+                        <div class="timeline-content">
+                            <h4>Senior High School - STEM Track</h4>
+                            <h5>Trece Martires City Senior High School, Trece Martires City, Cavite</h5>
+                            <p>Graduated with honors</p>
+                            <p>Key Achievements:</p>
+                            <ul>
+                                <li>Consistent Academic Excellence Awardee</li>
+                                <li>Participated in various STEM-related competitions</li>
+                                <li>Member of the Computer Club</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Certifications -->
+                <div class="timeline-section">
+                    <h3><i class="fas fa-certificate"></i> Certifications & Trainings</h3>
+                    <div class="certification-item">
+                        <h4>Introduction to Web Development</h4>
+                        <p>Coursera - University of Michigan - 2023</p>
+                    </div>
+                    <div class="certification-item">
+                        <h4>Python for Everybody Specialization</h4>
+                        <p>Coursera - University of Michigan - 2023</p>
+                    </div>
+                    <div class="certification-item">
+                        <h4>Google IT Support Professional Certificate</h4>
+                        <p>Coursera - Google - 2022</p>
+                    </div>
+                    <div class="certification-item">
+                        <h4>Responsive Web Design</h4>
+                        <p>freeCodeCamp - 2022</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title">Get In <span class="highlight">Touch</span></h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3>Let's Connect</h3>
+                    <p>I'm currently looking for new opportunities. Whether you have a question or just want to say hi, I'll get back to you as soon as possible!</p>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Email</h4>
+                                <p>latanggar@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <h4>Phone</h4>
+                                <p>+63 994 329 3114</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4>Location</h4>
+                                <p>Philippines</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="social-links">
+                        <a href="https://github.com/Shiku1228" target="_blank" class="social-icon"><i class="fab fa-github"></i></a>
+                        <a href="https://www.facebook.com/renz.latangga" target="_blank" class="social-icon"><i class="fab fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/sh.i.ku_1/" target="_blank" class="social-icon"><i class="fab fa-instagram"></i></a>
+                        <a href="https://x.com/ShiKu8365387301" target="_blank" class="social-icon"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                
+                <form id="contact-form" class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Your Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Your Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h3>Renz Latangga</h3>
+                    <p>Full Stack Developer</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#experience">Experience</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Contact Info</h4>
+                    <p><i class="fas fa-envelope"></i> latanggar@gmail.com</p>
+                    <p><i class="fas fa-phone"></i> +63 994 329 3114</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Renz Latangga. All rights reserved.</p>
+                <div class="footer-social">
+                    <a href="https://github.com/Shiku1228" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://www.facebook.com/renz.latangga" target="_blank"><i class="fab fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/sh.i.ku_1/" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://x.com/ShiKu8365387301" target="_blank"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Subtle Wave Loader -->
+    <style>
+        .wave-loader-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(10, 25, 47, 0.98);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 9999;
+            opacity: 0;
+            visibility: hidden;
+            transition: all 0.5s ease;
+        }
+        
+        .wave-loader-overlay.active {
+            opacity: 1;
+            visibility: visible;
+        }
+        
+        .wave-container {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+        }
+        
+        .ocean {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 30%; /* Reduced height */
+            z-index: 1;
+            opacity: 0.15; /* More subtle */
+        }
+        
+        .wave {
+            position: absolute;
+            left: 0;
+            width: 200%;
+            height: 100%;
+            background-repeat: repeat no-repeat;
+            background-position: 0 bottom;
+            transform-origin: center bottom;
+        }
+        
+        .wave1 {
+            background-size: 50% 60px;
+            animation: wave 20s linear infinite;
+            background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 1200 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0,0V30s100,20,200,0S400,10,600,30s200,0,200,0v30H0Z' fill='%2364ffda'/%3E%3C/svg%3E");
+            opacity: 0.4;
+        }
+        
+        .wave2 {
+            background-size: 50% 80px;
+            animation: wave 25s linear infinite reverse;
+            background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 1200 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0,20s100-15,200,0,200-20,400,5,400,0,400,0v35H0Z' fill='%2364ffda'/%3E%3C/svg%3E");
+            opacity: 0.3;
+        }
+        
+        @keyframes wave {
+            0% { transform: translateX(0) scaleY(1); }
+            50% { transform: translateX(-25%) scaleY(0.95); }
+            100% { transform: translateX(-50%) scaleY(1); }
+        }
+        
+        .loading-content {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            z-index: 2;
+            color: var(--white);
+            width: 100%;
+            padding: 0 20px;
+        }
+        
+        .loading-text {
+            font-size: 1.5rem;
+            margin-bottom: 1.5rem;
+            color: var(--accent);
+            font-weight: 400;
+            letter-spacing: 1px;
+        }
+        
+        .loading-progress {
+            width: 40%;
+            max-width: 300px;
+            height: 6px;
+            background: rgba(100, 255, 218, 0.1);
+            border-radius: 3px;
+            margin: 0 auto;
+            overflow: hidden;
+            position: relative;
+        }
+        
+        .progress-bar {
+            height: 100%;
+            width: 30%;
+            background: var(--accent);
+            border-radius: 3px;
+            position: absolute;
+            animation: progress 2.5s ease-in-out infinite;
+            opacity: 0.7;
+        }
+        
+        @keyframes progress {
+            0% { left: -30%; }
+            100% { left: 100%; }
+        }
+    </style>
+    <style>
+        .wave-loader {
+            display: none;
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: var(--light-navy);
+            border-radius: 30px;
+            overflow: hidden;
+        }
+        
+        .wave {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: url("data:image/svg+xml,%3Csvg viewBox='0 0 1200 120' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512,54.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z' fill='%2364ffda' fill-opacity='0.3'/%3E%3Cpath d='M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z' fill='%2364ffda' fill-opacity='0.3'/%3E%3Cpath d='M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z' fill='%2364ffda' fill-opacity='0.3'/%3E%3C/svg%3E") repeat-x;
+            animation: wave 2s linear infinite;
+            transform: translateY(100%);
+        }
+        
+        .wave:nth-child(2) {
+            animation-delay: -0.5s;
+            opacity: 0.7;
+        }
+        
+        .wave:nth-child(3) {
+            animation-delay: -1s;
+            opacity: 0.5;
+        }
+        
+        @keyframes wave {
+            0% { transform: translateY(100%); }
+            100% { transform: translateY(0); }
+        }
+        
+        .btn-downloading .btn-text {
+            visibility: hidden;
+        }
+        
+        .btn-downloading .wave-loader {
+            display: block;
+        }
+    </style>
+    
+    <!-- Back to Top Button -->
+    <a href="#" id="back-to-top" class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <!-- JavaScript -->
+    <script src="js/script.js"></script>
+</body>
+</html>
